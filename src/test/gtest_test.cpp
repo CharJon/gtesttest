@@ -1,9 +1,7 @@
 #include <gtest/gtest.h>
 
+#include "basic.hpp"
 
-int throwsError() {
-    throw std::runtime_error("Error");
-}
 
 // test if gtest is working properly
 TEST(BasicTest, test1) {
@@ -17,4 +15,9 @@ TEST(BasicTest, test2) {
     } catch (const std::runtime_error &e) {
         EXPECT_STREQ(e.what(), "Error");
     }
+}
+
+// test error throwing
+TEST(BasicTest, test3) {
+    ASSERT_ANY_THROW(throwsError());
 }
