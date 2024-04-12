@@ -55,9 +55,10 @@ jobs:
       run: git submodule update --init --recursive
 
     - name: brew install gcc
-      if: matrix.cpp_compiler == 'g++@13'
+      if: matrix.os == 'macos-latest'
       run: |
         brew install gcc@13
+        ls  /usr/local/Cellar/gcc/13.2.0
 
 
     - name: Configure CMake
