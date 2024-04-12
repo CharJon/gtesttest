@@ -38,8 +38,8 @@ jobs:
             cpp_compiler: g++-13
           - os: macos-latest
             build_type: [Release]
-            c_compiler: /usr/local/Cellar/gcc/13.2.0/bin/gcc
-            cpp_compiler: /usr/local/Cellar/gcc/13.2.0/bin/g++
+            c_compiler: /usr/local/Cellar/gcc/13.2.0/bin/gcc-13
+            cpp_compiler: /usr/local/Cellar/gcc/13.2.0/bin/g++-13
 
     steps:
     - uses: actions/checkout@v4
