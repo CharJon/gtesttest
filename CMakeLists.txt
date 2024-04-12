@@ -8,8 +8,8 @@ if (NOT CMAKE_BUILD_TYPE OR CMAKE_BUILD_TYPE STREQUAL "")
 endif ()
 
 set(CMAKE_CXX_FLAGS "-Wall -Wextra")
-set(CMAKE_CXX_FLAGS_DEBUG "-g -fopenmp")
-set(CMAKE_CXX_FLAGS_RELEASE "-O3 -fopenmp -DNDEBUG")
+## set(CMAKE_CXX_FLAGS_DEBUG "-g -fopenmp")
+## set(CMAKE_CXX_FLAGS_RELEASE "-O3 -DNDEBUG")
 set(CMAKE_EXPORT_COMPILE_COMMANDS ON CACHE INTERNAL "") # Enable/Disable output of compile commands during generation
 
 ### This Project #####
