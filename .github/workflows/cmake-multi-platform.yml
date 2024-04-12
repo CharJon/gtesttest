@@ -38,11 +38,11 @@ jobs:
             cpp_compiler: g++-13
           - os: macos-latest
             build_type: [Release]
-            c_compiler: gcc
-            cpp_compiler: g++
+            c_compiler: gcc@13
+            cpp_compiler: g++@13
 
     steps:
-    - uses: actions/checkout@v3
+    - uses: actions/checkout@v4
 
     - name: Set reusable strings
       # Turn repeated input strings (such as the build output directory) into step outputs. These step outputs can be used throughout the workflow file.
@@ -53,6 +53,14 @@ jobs:
 
     - name: Setup submodules
       run: git submodule update --init --recursive
+
+    - name: "brew install gcc"
+      runs-on: macos-latest
+      steps:
+      - name: Install brew gcc
+        if: matrix.cpp_compiler == 'gcc@13'
+        run: brew install gcc@13
+
 
     - name: Configure CMake
       # Configure CMake in a 'build' subdirectory. `CMAKE_BUILD_TYPE` is only required if you are using a single-configuration generator such as make.
