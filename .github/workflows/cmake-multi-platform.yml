@@ -38,8 +38,8 @@ jobs:
             cpp_compiler: g++-13
           - os: macos-latest
             build_type: [Release]
-            c_compiler: gcc@13
-            cpp_compiler: g++@13
+            c_compiler: /usr/local/Cellar/gcc/13.2.0/bin/gcc
+            cpp_compiler: /usr/local/Cellar/gcc/13.2.0/bin/g++
 
     steps:
     - uses: actions/checkout@v4
@@ -58,8 +58,6 @@ jobs:
       if: matrix.cpp_compiler == 'g++@13'
       run: |
         brew install gcc@13
-        brew info gcc@13
-        which gcc@13
 
 
     - name: Configure CMake
