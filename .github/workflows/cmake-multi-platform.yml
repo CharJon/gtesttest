@@ -56,7 +56,10 @@ jobs:
 
     - name: brew install gcc
       if: matrix.cpp_compiler == 'g++@13'
-      run: brew install gcc@13
+      run: |
+        brew install gcc@13
+        brew info gcc@13
+        which gcc@13
 
 
     - name: Configure CMake
