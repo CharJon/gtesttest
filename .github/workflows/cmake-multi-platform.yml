@@ -54,12 +54,9 @@ jobs:
     - name: Setup submodules
       run: git submodule update --init --recursive
 
-    - name: "brew install gcc"
-      runs-on: macos-latest
-      steps:
-      - name: Install brew gcc
-        if: matrix.cpp_compiler == 'gcc@13'
-        run: brew install gcc@13
+    - name: brew install gcc
+      if: matrix.cpp_compiler == 'gcc@13'
+      run: brew install gcc@13
 
 
     - name: Configure CMake
