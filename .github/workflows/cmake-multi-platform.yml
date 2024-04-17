@@ -36,7 +36,7 @@ jobs:
             build_type: [Release]
             c_compiler: gcc-13
             cpp_compiler: g++-13
-          - os: macos-latest
+          - os: macos-14
             build_type: [Release]
             c_compiler: gcc
             cpp_compiler: g++
