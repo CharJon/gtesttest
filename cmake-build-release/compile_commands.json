@@ -1,0 +1,8 @@
+[
+{
+  "directory": "/Users/jonas/Projects/gtesttest/cmake-build-release",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++ -I/Users/jonas/Projects/gtesttest/include -Wall -Wextra -O3 -DNDEBUG -std=gnu++20 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -fcolor-diagnostics -o CMakeFiles/testgtest.dir/src/main.cpp.o -c /Users/jonas/Projects/gtesttest/src/main.cpp",
+  "file": "/Users/jonas/Projects/gtesttest/src/main.cpp",
+  "output": "CMakeFiles/testgtest.dir/src/main.cpp.o"
+}
+]

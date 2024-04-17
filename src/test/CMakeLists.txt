@@ -1,1 +1,0 @@
-add_test(gtest_test basic gtest_test.cpp )

@@ -1,0 +1,84 @@
+Start testing: Apr 17 06:58 CEST
+----------------------------------------------------------
+1/3 Testing: BasicTest.test1
+1/3 Test: BasicTest.test1
+Command: "/Users/jonas/Projects/gtesttest/cmake-build-debug-gcc-12/src/test/gtest_test" "--gtest_filter=BasicTest.test1" "--gtest_also_run_disabled_tests"
+Directory: /Users/jonas/Projects/gtesttest
+"BasicTest.test1" start time: Apr 17 06:58 CEST
+Output:
+----------------------------------------------------------
+Running main() from /Users/jonas/Projects/gtesttest/extern/gtest/googletest/src/gtest_main.cc
+Note: Google Test filter = BasicTest.test1
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from BasicTest
+[ RUN      ] BasicTest.test1
+[       OK ] BasicTest.test1 (0 ms)
+[----------] 1 test from BasicTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Passed.
+"BasicTest.test1" end time: Apr 17 06:58 CEST
+"BasicTest.test1" time elapsed: 00:00:00
+----------------------------------------------------------
+
+2/3 Testing: BasicTest.test2
+2/3 Test: BasicTest.test2
+Command: "/Users/jonas/Projects/gtesttest/cmake-build-debug-gcc-12/src/test/gtest_test" "--gtest_filter=BasicTest.test2" "--gtest_also_run_disabled_tests"
+Directory: /Users/jonas/Projects/gtesttest
+"BasicTest.test2" start time: Apr 17 06:58 CEST
+Output:
+----------------------------------------------------------
+Running main() from /Users/jonas/Projects/gtesttest/extern/gtest/googletest/src/gtest_main.cc
+Note: Google Test filter = BasicTest.test2
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from BasicTest
+[ RUN      ] BasicTest.test2
+[       OK ] BasicTest.test2 (0 ms)
+[----------] 1 test from BasicTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Passed.
+"BasicTest.test2" end time: Apr 17 06:58 CEST
+"BasicTest.test2" time elapsed: 00:00:00
+----------------------------------------------------------
+
+3/3 Testing: BasicTest.test3
+3/3 Test: BasicTest.test3
+Command: "/Users/jonas/Projects/gtesttest/cmake-build-debug-gcc-12/src/test/gtest_test" "--gtest_filter=BasicTest.test3" "--gtest_also_run_disabled_tests"
+Directory: /Users/jonas/Projects/gtesttest
+"BasicTest.test3" start time: Apr 17 06:58 CEST
+Output:
+----------------------------------------------------------
+Running main() from /Users/jonas/Projects/gtesttest/extern/gtest/googletest/src/gtest_main.cc
+Note: Google Test filter = BasicTest.test3
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from BasicTest
+[ RUN      ] BasicTest.test3
+[       OK ] BasicTest.test3 (0 ms)
+[----------] 1 test from BasicTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Passed.
+"BasicTest.test3" end time: Apr 17 06:58 CEST
+"BasicTest.test3" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Apr 17 06:58 CEST

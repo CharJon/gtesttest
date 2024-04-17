@@ -1,0 +1,15 @@
+# ninja log v5
+489	541	1713329920705979982	testgtest	1e7234ab05b225e
+6	1546	1713329921711443024	extern/gtest/googletest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o	7a6130bff32dc484
+5276	6653	1713329926817678492	src/test/gtest_test[1]_tests.cmake	5c673bf51879d9e7
+5154	5226	1713329925392385000	lib/libgtest.a	4f02e1cdd73246c1
+7	1635	1713329921797974657	src/test/CMakeFiles/gtest_test.dir/gtest_test.cpp.o	8648fc1aefcb4314
+1	2918	1713329923081730019	extern/gtest/googlemock/CMakeFiles/gmock.dir/src/gmock-all.cc.o	890f5305e0bcec44
+2	1831	1713329921996390103	extern/gtest/googlemock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.o	860535b6c75acb
+5226	5270	1713329925436261000	lib/libgtest_main.a	e1de9a8322a707cd
+5226	5276	1713329925442869000	lib/libgmock.a	e3033206d6e1e21e
+5	5154	1713329925313721174	extern/gtest/googletest/CMakeFiles/gtest.dir/src/gtest-all.cc.o	4ef91a833949f74e
+5276	6653	1713329926817678492	/Users/jonas/Projects/gtesttest/cmake-build-debug-gcc-12/src/test/gtest_test[1]_tests.cmake	5c673bf51879d9e7
+0	488	1713329920652902232	CMakeFiles/testgtest.dir/src/main.cpp.o	d83939458da3c570
+5276	5327	1713329925494239000	lib/libgmock_main.a	ad729b8f478c1698
+5276	6653	1713329926817678492	src/test/gtest_test	5c673bf51879d9e7

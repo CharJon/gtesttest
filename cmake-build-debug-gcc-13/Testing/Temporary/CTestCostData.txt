@@ -1,0 +1,5 @@
+BasicTest.test1 5 0.00215551
+BasicTest.test2 0 0
+BasicTest.test3 5 0.0025536
+---
+BasicTest.test2

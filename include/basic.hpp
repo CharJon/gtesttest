@@ -1,6 +1,8 @@
 #ifndef TESTGTEST_BASIC_HPP
 #define TESTGTEST_BASIC_HPP
 
+#include <vector>
+
 
 std::vector<int> throwsError() {
     throw std::runtime_error("Error");

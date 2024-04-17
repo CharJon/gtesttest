@@ -1,0 +1,4 @@
+BasicTest.test1 1 0.0235794
+BasicTest.test2 1 0.0191998
+BasicTest.test3 1 0.0184605
+---
