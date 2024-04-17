@@ -8,6 +8,7 @@ if (NOT CMAKE_BUILD_TYPE OR CMAKE_BUILD_TYPE STREQUAL "")
 endif ()
 
 set(CMAKE_CXX_FLAGS "-Wall -Wextra")
+add_link_options("-ld_classic")
 #set(CMAKE_EXPORT_COMPILE_COMMANDS ON CACHE INTERNAL "") # Enable/Disable output of compile commands during generation
 
 ### This Project #####
